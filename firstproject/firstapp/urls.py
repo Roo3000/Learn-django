@@ -6,4 +6,6 @@ urlpatterns = [
     path('function', views.hello_world),
     #accessing the class-based view
     path('class', views.HelloWorldView.as_view()),
+    #accessing my reservation form
+	path('reservation', views.home),
 ]
